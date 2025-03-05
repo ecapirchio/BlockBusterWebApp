@@ -34,11 +34,11 @@ namespace BlockBusterWebApp.Controllers
         {
             ViewBag.Cities = new List<string>
             {
-                "Tokyo, Japan",
-                "Paris, France",
-                "New York City, USA",
+                "Punta Cana, Dominican Republic",
+                "Cancun, Mexico",
+                "Sperlonga, Italy",
                 "Rome, Italy",
-                "Sydney, Australia"
+                "Grace Bay, Turks and Caicos"
             };
 
             return View();
