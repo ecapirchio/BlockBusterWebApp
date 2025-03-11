@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockBusterWebApp", "BlockBusterWebApp.csproj", "{37A3DA7C-A93E-4407-9882-FB9965A2FD93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockBusterWebApp", "BlockBusterWebApp.csproj", "{37A3DA7C-A93E-4407-9882-FB9965A2FD93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Capirchio_BlockBuster", "..\Capirchio_BlockBuster\Capirchio_BlockBuster.csproj", "{0A2C85B0-D184-47CD-AC55-AEC40744143D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{37A3DA7C-A93E-4407-9882-FB9965A2FD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37A3DA7C-A93E-4407-9882-FB9965A2FD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37A3DA7C-A93E-4407-9882-FB9965A2FD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2C85B0-D184-47CD-AC55-AEC40744143D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2C85B0-D184-47CD-AC55-AEC40744143D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2C85B0-D184-47CD-AC55-AEC40744143D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2C85B0-D184-47CD-AC55-AEC40744143D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

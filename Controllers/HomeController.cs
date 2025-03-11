@@ -1,6 +1,9 @@
 ﻿using BlockBusterWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using Capirchio_BlockBuster;
+using Capirchio_BlockBuster.Models;
 
 namespace BlockBusterWebApp.Controllers
 {
@@ -58,7 +61,14 @@ namespace BlockBusterWebApp.Controllers
             return View();
         }
 
-            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Movies()
+        {
+            var movieList = BlockBusterBasicFunctions.GetAllMoviesFull();
+            return View(movieList);
+        }
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
